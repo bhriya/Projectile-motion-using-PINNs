@@ -14,11 +14,13 @@ as well as the initial condition the results are shown below-
 ## Training
 The Neural Network architecture for the projectile motion problem constitutes an input layer of size 1, 8
 hidden layers with 100 neurons per layer and an output of size 2 where it outputs the two components of
-displacement. The optimizer used to reduce the total cost of the problem is Adam with a learning rate of 0.01.
-![](https://github.com/bhriya/Projectile-motion-using-PINNs/blob/main/Projectile%20Motion/Learning.gif))
+displacement.The optimizer used to reduce the total cost of the problem is Adam with a learning rate of 0.01.
+
+![](https://github.com/bhriya/Projectile-motion-using-PINNs/blob/main/Projectile%20Motion/Learning.gif)
 
 ## Results
-The final result can be seen in the image provided in this repository. Red curve corresponds to numerical 
+The final result can be seen in the image provided in this repository.Red curve corresponds to numerical 
 solution and blue curve corresponds to the DNN output in the plot below-
+
 ![](https://github.com/bhriya/Projectile-motion-using-PINNs/blob/main/Projectile%20Motion/result.png)
 
