@@ -16,6 +16,7 @@ The Neural Network architecture for the projectile motion problem constitutes an
 hidden layers with 100 neurons per layer and an output of size 2 where it outputs the two components of
 displacement.
 The optimizer used to reduce the total cost of the problem is Adam with a learning rate of 0.01.
+![](https://github.com/bhriya/Projectile-motion-using-PINNs/blob/main/Projectile%20Motion/Learning.gif))
 
 ## Results
 The final result can be seen in the image provided in this repository. Red curve corresponds to numerical 
